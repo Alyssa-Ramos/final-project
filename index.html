@@ -12,7 +12,7 @@
 <!-- Leaflet stylesheet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
 <!-- CSS stylesheet -->
-<link rel="stylesheet" href="styles/css">
+<link rel="stylesheet" href="styles/world-map.css">
 
 </head>
 
@@ -20,14 +20,14 @@
 
   <!-- 1.0 Welcome Page -->
 
-  <h1> What's your waste size? </h1>
+  <h1> Behind the Label </h1>
   <h2> Where was your clothing made? </h2>
   <select name="Asiancountry">
     <option> Bangladesh </option>
-    <option>Pakistan </option>
-    <option>Thailand </option>
-    <option>China </option>
-    <option>Philippines </option>
+    <option> Pakistan </option>
+    <option> Thailand </option>
+    <option> China </option>
+    <option> Philippines </option>
   </select>
 
   <!-- 2.0 World Map Page -->
@@ -35,11 +35,10 @@
 
 <!-- 2.1 Introductory transition -->
   <h2> Was your clothing made in one of these countries? </h2>
-    <h3> Your clothing is a product of fast fashion.</h3>
-    <h3> Chances are ... they were. </h3>
+    <h3> If so, your clothing may be a product of fast fashion.</h3>
     <h3> It's estimated that the fashion industry costs $1.2 trillion. </h3>
-    <img src="images/miami-models.jpg" alt="photo of threads"> 
-    <h3> $250 billion dollars are spent in the U.S. </h3>
+    <img src="images/miami-models.jpg" alt="models from Miami fashion week">
+    <h3> 250 billion of those dollars were spent in the U.S. </h3>
       <!--https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap -->
       <!-- Q. How to attribute? -->
 
@@ -51,13 +50,13 @@
 
 <!-- 3.1 Transition to Environmental and Social Implications  -->
 
-  <h2> But every thread of clothing traces back to the worker who made them. </h2>
+  <h2> People buy retail clothing often, but few people realize that every thread of clothing traces back to a worker overseas who's making them. </h2>
     <img src="images/threads.jpg" alt="photo of threads">
 
 <!-- 3.2 Social Implications  -->
   <h2> The Social Implications </h2>
     <h3> Poor working conditions </h3>
-        <p>Several Asian countries like Thailand, Cambodia or China have felt the pressured by the demand for cheaply-made goods to compete regionally. Because of this many manufacturers have bypassed labor laws. </p>
+        <p>Several Asian countries like Thailand, Cambodia or China have felt the pressured to compete regionally because of the high demand for cheaply made goods. Many manufacturers have used this an excuse to bypass labor laws. </p>
         <img src="images/protestors-2.jpg" alt="photo of protestor with sign">
 
     <h3> Most garment workers are young women hired as cheap labor. </h3>
@@ -131,8 +130,10 @@
 
 
 <footer> Web apps project by: Alyssa Ramos </footer>
+<!-- Make sure you put this AFTER Leaflet's CSS -->
+<script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
 
-<script> </script>
+<script src="scripts/map.js"> </script>
 
 </body>
 
