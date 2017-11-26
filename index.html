@@ -5,22 +5,121 @@
 <head>
 
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Make note of meta viewport-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <title> Fast Fashion </title>
 
+<!-- Leaflet stylesheet -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
 <!-- CSS stylesheet -->
-<link rel="stylesheet" href="styles/normalize.css">
+<link rel="stylesheet" href="styles/css">
 
 </head>
 
-
 <body>
-  <p> Hi </p<
 
+  <!-- 1.0 Welcome Page -->
+
+  <h1> What's your waste size? </h1>
+  <h2> Where was your clothing made? </h2>
+  <select name="Asiancountry">
+    <option> Bangladesh </option>
+    <option>Pakistan </option>
+    <option>Thailand </option>
+    <option>China </option>
+    <option>Philippines </option>
+  </select>
+
+  <!-- 2.0 World Map Page -->
+  <div id="worldMap"></div>
+
+<!-- 2.1 Introductory transition -->
+  <h2> Was your clothing made in one of these countries? </h2>
+    <h3> Your clothing is a product of fast fashion.</h3>
+    <h3> Chances are ... they were. </h3>
+    <h3> It's estimated that the fashion industry costs $1.2 trillion. </h3>
+    <h3> $250 billion dollars are spent in the U.S. </h3>
+      <!--https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap -->
+      <!-- Q. How to attribute? -->
+
+
+<!-- 3.0 Introducing Fast Fashion  -->
+  <h2> What is fast fashion? </h2>
+    <p> This is a contemporary term in the fashion industry for the rapid process of manufacturing and purchasing cheaply made clothing based off chic runway trends.</p>
+
+<!-- 3.1 Transition to Environmental and Social Implications  -->
+
+  <h2> But every thread of clothing traces back to the worker who made them. </h2>
+
+<!-- 3.2 Social Implications  -->
+  <h2> The Social Implications </h2>
+    <h3> Poor working conditions </h3>
+        <p>Several Asian countries like Thailand, Cambodia or China have felt the pressured by the demand for cheaply-made goods to compete regionally. Because of this many manufacturers have bypassed labor laws. </p>
+    <h3> Most garment workers are young women hired as cheap labor. </h3>
+        <p> Out of the 75 million people who make our clothing, 80 percent of them are women between the ages of 18 to 24 years old. Many of them work long hours for low wages.</p>
+        <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa  ster  -for  -women-and-the-environment/#250ff18d1fa4 -->
+
+    <h3> Lead exposure </h3>
+      <p> Because some companies still use cheap, poor-quality material, many of the clothing and accessories still used today have traces of lead. Exposure to lead has been linked to infertility to women and other health implications.  </p>
+      <!--https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fas  hi  on_b_5690575.html -->
+
+    <h3> Child Labor </h3>
+      <p> Small handiwork such as sequins and beading may be indication of child labor. For manufacturers, investing in machines equipped to do such handiwork is more expensive whereas child labor is much cheaper. </p>
+    <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion  _b_5690575.html -->
+
+<!-- 3.3 Environmental Implications  -->
+<h2> The Environmental Implications </h2>
+  <h3> Landfills: Where clothes go to die </h3>
+    <p> It's purported that U.S. generates around 16.22 million tons of diposed textiles in 2014. Only 2.62 million tons of textiles were recycled. Because most clothing is made of synthetic, petroleum-based fibers, it takes decades for them to decompose. Moreover, the chemical dye from these clothings can seep into the soil and pollute the groundwater. It's also predicted that fashion industry's C02 emmissions will increase by 60 percent. </p>
+    <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#250ff18d1fa4 -->
+    <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#426b60601fa4 -->
+    <h3> Water shortages </h3>
+      <p> In order to manufacture clothing, especially those made of cotton, require a large amount of water. This is detrimental for countries like India and China, which are experiencing major water shortages.</p>
+
+
+<!-- 4.0 Why it happens  -->
+<h2> What drives fast fashion? </h2>
+  <h3> Low quality > High value clothing </h3>
+    <p> The fast fashion model produces large amounts of cheap clothing that follows trends coming off the runways. The industry has created this insatiable demand for new designs and styles, and the fast fashion model continue to feed costumers' cravings. the fashion industry – generally divided into two seasons, Spring/Summer and Fall/Winter – now has "micro-seasons" where new styles come out frequently. For example, retailers like Zara and Forever 21 receive shipments of new clothing weekly and daily, respectively.</p>
+    <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion_b _5690575.html -->
+
+  <h3> E-commerce is now entertainment </h3>
+    <p> With the rise of e-commerce, shopping can be done instantenously at the swipe of a thumb anywhere, anytime. Retailers like Top Shop introduce around 400 styles to their website often. E-commerce has increased the demand for clothing and apps like Pinterest have made retail a form of entertainment.  Accordingt o [link here], 45 percent of Millenials spend more than hour looking at retail sites everyday. A study has shown that there is more brain activity in a part of the brain called the medial prefrontal cortex. This acivity is registered as pleasure that derives from getting a good deal on clothing that balances the hedonistic need to buy clothing and the pain of making an expensive purchase. </p>
+  <h3> Discounts aren't always deals </h3>
+    <p> Many people love fast fashion because of its extremely cheap prices and the deals that retailers offer. Brands like H&amp;M and outlets for brands like J.Crew, mark down their prices while customers think they're paying high-quality designer brands for a much affordable price. It seems like a steal, but in reality, some outlets broker deals with desingers to sell lesser, poor-quality versions of their products. </p>
+
+
+<!-- 4.01 Quiz or form about how much a person particpates in fast fashion??  -->
+
+<!-- 4.1 Solutions
+  Bullets? -->
+  <h2> Reduce </h2>
+    <h3> Be a conscious consumer </h3>
+      <p> When buying clothing, buy what you need. Avoid impulse purchases - in this case, less is certainly more.</p>
+      <p> Buy clothing from sustainable brands. You can find a list of sustainable brands here. </p> <!-- Do I wanna put a link here? -->
+      <p> Sell your clothing at places like Poshmark [link], Tradesy [link] or Buffalo Exchange [link]. </p>
+      <p> Donate clothing to Goodwill [link], Salavation Army [link] or other local charities.</p> <!-- Don't forget to put links? -->
+
+  <h2> Reuse </h2>
+    <p> Try exploring thriftstores or resale retailers. </p>
+    <p> Try doing closet exchanges with friends </p>
+    <p> If you're more of a crafty person, try looking up DIY projects to give a new life to your clothing. </p>
+
+  <h2> Recycle </h2>
+    <p> If all else fails. There are organizations such as Rewearable [link] and Wearable Collections [link] that take old clothing and tale the clothing and its fibers to be recycled and remade.  </p>
+
+  <h2> Act Now </h2>
+  <p> A movement, Fashion Revolution [link], that began in the U.K., has started a campaign that encourages designers to use better practices for manufacturing clothing. Their website offers action kits and campaign material to educate and spread awareness about the issue of fast fashion. </p>
+
+<!-- 5.0 Why it matters -->
+ <h3> Why should I care? </h3>
+    <p> Buying the clothing you want shouldn't be a guilt trip; it's about encouraging the industry to have better practices.It's important to be conscious about what you consume, because every thread has an impact </p>
+
+
+<footer> Web apps project by: Alyssa Ramos </footer>
 
 <script> </script>
 
 </body>
-
 
 </html>
