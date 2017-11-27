@@ -13,5 +13,5 @@ https://www.w3schools.com/tags/tag_select.asp
 https://api.jquery.com/change/
 
 
-I'm going to continue researching jfiddles for syntax and play with the jfiddle examples again. However, I will move forward with more javascript, and I'll probably go forward with the other javascript, and keep playing with the functions for the world map along the way.
+I'm going to continue researching jfiddles for syntax and play with the jfiddle examples again. However, I will move forward with the other javascript functions I wanted to add while playing around with the function I wanted to include for the worldmap. 
  >
