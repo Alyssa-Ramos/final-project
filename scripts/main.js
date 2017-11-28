@@ -1,10 +1,21 @@
 $(document).ready(function() {
 
+   function hideAll() {
+    $('#worldMap').hide();
+    }
 
-  $( ".menu" ).change(function() {
-    switch ($(this).attr("id")) {
+  // run that function right away
+  hideAll();
+
+
+
+  /* $( "#menu select" ).change(function() {
+    switch ($(this).val()) {
       case "BGD":
-        $('selected').show(
+        alert("BGD");
+
+
+        $('marker?').show(
         //var mymap = L.map('worldMap').setView([16.679590, 66.474645],2.00);
         //Bangladesh
         L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cja3f9cd11m9g2smgswlty8bs/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
@@ -12,8 +23,13 @@ $(document).ready(function() {
             maxZoom: 18
         }).addTo(mymap);
         marker1.bindPopup("<b>[h2]</b> <br> [insert fact]").openPopup(););
+
         break;
-        case "Pakistan":
+
+
+        case "PAK":
+          alert("PAK");
+          /*
           $('#PAK').show(
             var marker3 = L.marker([30.338895,68.941716]).addTo(mymap);
             L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cja3f9cd11m9g2smgswlty8bs/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
@@ -23,7 +39,8 @@ $(document).ready(function() {
             //Thailand
             marker3.bindPopup("<b>[h2]</b> <br>[insert fact]")
           );
-          break;)
-  });
 
-}
+          break;
+        } // end switch
+  }); // end menu change  */
+}); // end document ready

@@ -12,6 +12,7 @@
 <!-- Leaflet stylesheet -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
 <!-- CSS stylesheet -->
+<link rel="stylesheet" href="styles/main.css">
 <link rel="stylesheet" href="styles/world-map.css">
 
 </head>
@@ -19,76 +20,81 @@
 <body>
 
   <!-- 1.0 Welcome Page -->
-
+  <div id="slide1">
   <h1> Behind the Label </h1>
   <h2> Where was your clothing made? </h2>
-  <select class="menu" name="Asiancountry">
-    <option value="BGD" selected="selected"> Bangladesh </option>
-    <option value="PAK" selected="selected"> Pakistan </option>
-    <option value="THA" selected="selected"> Thailand </option>
-    <option value="CHN" selected="selected"> China </option>
-    <option value="PHL" selected="selected"> Philippines </option>
-  </select>
 
-  <!-- 2.0 World Map Page -->
+
+  <select id="menu" name="Asiancountry">
+    <option value="BGD" id="BGD"> Bangladesh </option>
+    <option value="PAK" id="PAK"> Pakistan </option>
+    <option value="THA" id="THA"> Thailand </option>
+    <option value="CHN" id="CHN"> China </option>
+    <option value="PHL" id="PHL"> Philippines </option>
+  </select>
+  </div>
+
+<!-- 2.0 World Map Page -->
   <div id="worldMap"></div>
 
 <!-- 2.1 Introductory transition -->
+  <div id="slide2">
   <h2> Was your clothing made in one of these countries? </h2>
     <h3> If so, your clothing may be a product of fast fashion.</h3>
-    <h3> It's estimated that the fashion industry costs <a href="https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap"> $1.2 trillion. </a> </h3>
-    <img src="images/miami-models.jpg" alt="models from Miami fashion week">
-    <h3> 250 billion of those dollars were spent in the U.S. </h3>
-      <!--https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap -->
-      <!-- Q. How to attribute? -->
+  </div>
 
+    <div id="slide3">
+    <h3> It's estimated that the fashion industry costs<a href="https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap"> $1.2 trillion. </a> </h3>
+      <h3> 250 billion of those dollars were spent in the U.S. </h3>
+    </div>
+      <!--https://www.npr.org/2016/04/08/473513620/what-happens-when-fashion-bec  omes-fast-disposable-and-cheap -->
 
 <!-- 3.0 Introducing Fast Fashion  -->
-  <h2> What is fast fashion? </h2>
-    <p> This is a contemporary term in the fashion industry for the rapid process of manufacturing and purchasing cheaply made clothing based off chic runway trends.</p>
-    <img src="images/model.jpg" alt="photo of model">
+  <div id="slide4">
+    <h2> What is fast fashion? </h2>
+      <p> This is a contemporary term in the fashion industry for the rapid process of manufacturing and purchasing cheaply made clothing based off chic runway trends.</p>
+    </div>
 
 <!-- 3.1 Transition to Environmental and Social Implications  -->
-
+  <div id="slide5">
   <h2> People buy retail clothing often, but few people realize that every thread of clothing traces back to a worker overseas who's making them. </h2>
-    <img src="images/threads.jpg" alt="photo of threads">
+  </div>
 
 <!-- 3.2 Social Implications  -->
-  <h2> The Social Implications </h2>
-    <h3> Poor working conditions </h3>
+  <div id="slide6">
+    <h2> The Social Implications </h2>
+      <h3> Poor working conditions </h3>
         <p>Several Asian countries like Thailand, Cambodia or China have felt the pressured to compete regionally because of the high demand for cheaply made goods. Many manufacturers have used this an excuse to bypass labor laws. </p>
-        <img src="images/protestors-2.jpg" alt="photo of protestor with sign">
 
-    <h3> Most garment workers are young women hired as cheap labor. </h3>
-        <p> Out of the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa  ster  -for  -women-and-the-environment/#250ff18d1fa4"> 75 million people who make our clothing, </a> 80 percent of them are women between the ages of 18 to 24 years old. Many of them work long hours for low wages.</p>
+        <h3> Most garment workers are young women hired as cheap labor. </h3>
+          <p> Out of the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-  disa  ster  -for  -women-and-the-environment/#250ff18d1fa4"> 75 million people who make our clothing, </a> 80 percent of them are women between the ages of 18 to 24 years old. Many of them work long hours for low wages.</p>
         <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa  ster  -for  -women-and-the-environment/#250ff18d1fa4 -->
-        <img src="images/garmentworkers-1.jpg" alt="garment workers sorting fabric">
 
-    <h3> Lead exposure </h3>
-      <p> Because some companies still use cheap, poor-quality material, many of the clothing and accessories still used today have <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fas  hi  on_b_5690575.html"> traces of lead </a> . Exposure to lead has been linked to infertility to women and other health implications.  </p>
-      <!--https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fas  hi  on_b_5690575.html -->
+          <h3> Lead exposure </h3>
+          <p> Because some companies still use cheap, poor-quality material, many of the clothing and accessories still used today have <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fa st-fas  hi  on_b_5690575.html"> traces of lead </a> . Exposure to lead has been linked to infertility to women and other health implications.  </p>
+          <!--https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast  -fas  hi  on_b_5690575.html -->
 
-    <h3> Child Labor </h3>
-      <p> Small handiwork such as sequins and beading may be <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion  _b_5690575.html"> indication of child labor </a>. For manufacturers, investing in machines equipped to do such handiwork is more expensive whereas child labor is much cheaper. </p>
-    <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion  _b_5690575.html -->
-    <img src="images/garmentworker-1.jpg" alt="photo of Asian garment worker">
+          <h3> Child Labor </h3>
+          <p> Small handiwork such as sequins and beading may be <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fa  st-fashion  _b_5690575.html"> indication of child labor </a>. For   manufacturers, investing in machines equipped to do such handiwork is more expensive whereas child labor is much cheaper. </p>
+          <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion  _b_5690575.html -->
+    </div>
 
 <!-- 3.3 Environmental Implications  -->
-<h2> The Environmental Implications </h2>
-  <h3> Landfills: Where clothes go to die </h3>
-    <p> It's purported that the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#250ff18d1fa4"> U.S. generates around 16.22 million tons </a>  of diposed textiles in 2014.  <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#250ff18d1fa4"> Only 2.62 million tons of textiles were recycled </a>. Because most clothing is made of synthetic, petroleum-based fibers, it takes decades for them to decompose. Moreover, the chemical dye from these clothings can seep into the soil and pollute the groundwater. It's also predicted that fashion industry's C02 emmissions will increase by 60 percent. </p>
-    <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#250ff18d1fa4 -->
-    <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#426b60601fa4 -->
-    <h3> Water shortages </h3>
-      <p> In order to manufacture clothing, especially those made of cotton, require a large amount of water. This is detrimental for countries like India and China, which are experiencing <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disaster  -for-women-and-the-environment/#250ff18d1fa4"> major water shortages </a>.</p>
-
+<div id="slide7">
+  <h2> The Environmental Implications </h2>
+    <h3> Landfills: Where clothes go to die </h3>
+      <p> It's purported that the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa ster  -for-women-and-the-environment/#250ff18d1fa4"> U.S. generates around 16.22 million tons </a>  of diposed textiles in 2014.  <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa ster  -for-women-and-the-environment/#250ff18d1fa4"> Only 2.62 million tons of textiles were recycled </a>. Because most clothing is made of synthetic, petroleum-based fibers, it takes decades for them to decompose. Moreover, the chemical dye from these clothings can seep into the soil and pollute the groundwater. It's also predicted that fashion industry's C02 emmissions will increase by 60 percent. </p>
+      <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disast  er  -for-women-and-the-environment/#250ff18d1fa4 -->
+      <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disast  er  -for-women-and-the-environment/#426b60601fa4 -->
+      <h3> Water shortages </h3>
+        <p> In order to manufacture clothing, especially those made of cotton, require a large amount of water. This is detrimental for countries like India and China, which are experiencing <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-di  saster  -for-women-and-the-environment/#250ff18d1fa4"> major water shortages </a>.</p>
+</div>
 
 <!-- 4.0 Why it happens  -->
+<div id="slide8">
 <h2> What drives fast fashion? </h2>
   <h3> Low quality > High value clothing </h3>
     <p> The fast fashion model produces large amounts of cheap clothing that follows trends coming off the runways. The industry has created this insatiable demand for new designs and styles, and the fast fashion model continue to feed costumers' cravings. The fashion industry – generally divided into two seasons, Spring/Summer and Fall/Winter – now has "micro-seasons" where new styles come out frequently. For example, retailers like <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion_b _5690575.html"> Zara and Forever 21 receive shipments of new clothing weekly and daily </a>, respectively.</p>
-    <img src="images/zara-shopper.jpg" alt="female shopper with Zara shopping bag">
-    <img src="images/forever21.jpg" alt="Forever21 storefront">
     <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion_b _5690575.html -->
 
   <h3> E-commerce is now entertainment </h3>
@@ -96,43 +102,46 @@
 
   <h3> Discounts aren't always deals </h3>
     <p> Many people love fast fashion because of its extremely cheap prices and the deals that retailers offer. Brands like H&amp;M and outlets for brands like J.Crew, mark down their prices while customers think they're paying high-quality designer brands for a much affordable price. It seems like a steal, but in reality, some outlets broker deals with desingers to sell lesser, poor-quality versions of their products. </p>
-    <img src="images/jcrew.jpg" alt="photo of jcrew storefront">
-
+</div>
 
 <!-- 4.01 Quiz or form about how much a person particpates in fast fashion??  -->
 
-<!-- 4.1 Solutions
-  Bullets? -->
+<!-- 4.1 Solutions Bullets? -->
+<div id="slide9">
   <h2> Reduce </h2>
     <h3> Be a conscious consumer </h3>
       <p> When buying clothing, buy what you need. Avoid impulse purchases - in this case, less is certainly more.</p>
       <p> Buy clothing from sustainable brands. You can find a list of sustainable brands here. </p> <!-- Do I wanna put a link here? -->
       <p> Sell your clothing at places like <a href="https://poshmark.com/"> Poshmark </a>, <a href="https://www.tradesy.com/?utm_source=gtb&utm_medium=cpc&utm_campaign=Branded%20-%20Tradesy%20-%20FTB&utm_content=tradesy%20-%20exact&utm_term=tradesy&gclid=Cj0KCQiA6enQBRDUARIsAGs1YQirP-gQlGdRoMB6yfFMtJPqzaZvIAXgSs6xLeUv_x2Ylr61jRBauygaAgh0EALw_wcB"> Tradesy </a> or <a href="https://www.buffaloexchange.com/"> Buffalo Exchange </a>. </p>
       <p> Donate clothing to <a href"http://www.goodwill.org/"> Goodwill </a>, <a href"http://www.salvationarmyusa.org/"> Salavation Army </a> or other local charities.</p> <!-- Don't forget to put links? -->
-      <img src="images/vintage-clothing.jpg" alt="photo of threads">
 
   <h2> Reuse </h2>
     <p> Try exploring thriftstores or resale retailers. </p>
     <p> Try doing closet exchanges with friends </p>
     <p> If you're more of a crafty person, try looking up DIY projects to give a new life to your clothing. </p>
-    <img src="images/thriftstore.jpg" alt="thrift store">
 
   <h2> Recycle </h2>
     <p> If all else fails. There are organizations such as <a href"http://rewearable.org/"> Rewearable </a> and <a href="http://wearablecollections.com/"> Wearable Collections </a> that take old clothing and tale the clothing and its fibers to be recycled and remade.  </p>
+  </div>
 
+<div id="slide10">
   <h2> Act Now </h2>
   <p> A movement, <a href="http://fashionrevolution.org/"> Fashion Revolution </a>, that began in the U.K., has started a campaign that encourages designers to use better practices for manufacturing clothing. Their website offers action kits and campaign material to educate and spread awareness about the issue of fast fashion. </p>
-  <img src="images/protestors-1.jpg" alt="image of garment factory protestors">
+</div>
 
 <!-- 5.0 Why it matters -->
+<div id="slide11">
  <h3> Why should I care? </h3>
     <p> Buying the clothing you want shouldn't be a guilt trip; it's about encouraging the industry to have better practices.It's important to be conscious about what you consume, because every thread has an impact </p>
-
+</div> 
 
 <footer> Web apps project by: Alyssa Ramos </footer>
 <!-- Make sure you put this AFTER Leaflet's CSS -->
+
 <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin=""></script>
 
+
+<script src="scripts/jquery-3.2.1.min.js"> </script>
 <script src="scripts/world-map.js"> </script>
 <script src="scripts/main.js"> </script>
 
