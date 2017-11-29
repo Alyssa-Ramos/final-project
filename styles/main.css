@@ -4,6 +4,20 @@ body {
   padding-bottom: 2em;
 }
 
+#worldMap {
+  height: 300px;
+  width: 50%;
+  padding: 2em;
+  margin: auto;
+}
+
+#worldMap1 {
+  height: 300px;
+  width: 50%;
+  padding: 2em;
+  margin: auto;
+}
+
 /*Homepage*/
 #welcomePage {
   background-image:url("../images/clothing-rack.jpg");
@@ -44,6 +58,25 @@ body {
   margin: 0;
 }
 
+/*3.1 Transition to Environmental and Social Implications */
+#environTrans{
+  background-image:url("../images/factory_window.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+#dropdown {
+  background-color: #FCE6ED;//Pink
+  top:0;
+  bottom: 0;
+  height: 400vh;
+  margin: 0;
+}
 footer {
   background-color: #F0EEF0; //steely grey
 }

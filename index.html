@@ -13,8 +13,6 @@
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="">
 <!-- CSS stylesheet -->
 <link rel="stylesheet" href="styles/main.css">
-<link rel="stylesheet" href="styles/world-map.css">
-
 </head>
 
 <body>
@@ -22,21 +20,27 @@
   <!-- 1.0 Welcome Page -->
   <div id="welcomePage">
   <h1> Behind the Label </h1>
-  <h2> Where was your clothing made? </h2>
-
-
-  <select id="menu" name="Asiancountry">
-    <option value="BGD" id="BGD"> Bangladesh </option>
-    <option value="PAK" id="PAK"> Pakistan </option>
-    <option value="THA" id="THA"> Thailand </option>
-    <option value="CHN" id="CHN"> China </option>
-    <option value="PHL" id="PHL"> Philippines </option>
-  </select>
   </div>
 
-<!-- 2.0 World Map Page -->
-  <div id="worldMap"></div>
+<!-- 1.0 Where was your clothing made? -->
+  <div id="dropdown" class="slideP">
+  <h2> Where was your clothing made? </h2>
 
+  <select id="menu" name="Asiancountry">
+    <option value="BGD"> Bangladesh </option>
+    <option value="PAK"> Pakistan </option>
+    <option value="THA"> Thailand </option>
+    <option value="CHN"> China </option>
+    <option value="PHL"> Philippines </option>
+  </select>
+
+
+
+  <!-- 2.0 World Map Page -->
+    <div id="worldMap"></div>   <div id="worldMap1"></div>
+
+
+  </div>
 <!-- 2.1 Introductory transition -->
   <div id="intro" class="slideB">
   <h2> Was your clothing made in one of these countries? </h2>
@@ -64,33 +68,33 @@
   <div id="social" class="slideP">
     <h2> The Social Implications </h2>
 
-      <div class="socHead">
+      <div class="socHead1">
       <h3> Poor working conditions </h3>
       </div>
-      <div class="socImp">
+      <div class="socImp1">
         <p>Several Asian countries like Thailand, Cambodia or China have felt the pressured to compete regionally because of the high demand for cheaply made goods. Many manufacturers have used this an excuse to bypass labor laws. </p>
         </div> <!--end socImp div -->
 
-        <div class="socHead">
+        <div class="socHead2">
         <h3> Most garment workers are young women hired as cheap labor. </h3>
         </div>
-        <div class="socImp">
+        <div class="socImp2">
           <p> Out of the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-  disa  ster  -for  -women-and-the-environment/#250ff18d1fa4"> 75 million people who make our clothing, </a> 80 percent of them are women between the ages of 18 to 24 years old. Many of them work long hours for low wages.</p>
         <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa  ster  -for  -women-and-the-environment/#250ff18d1fa4 -->
           </div> <!--end socImp div -->
 
-          <div class="socHead">
+          <div class="socHead3">
           <h3> Lead exposure </h3>
           </div>
-          <div class="socImp">
+          <div class="socImp3">
           <p> Because some companies still use cheap, poor-quality material, many of the clothing and accessories still used today have <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fa st-fas  hi  on_b_5690575.html"> traces of lead </a> . Exposure to lead has been linked to infertility to women and other health implications.  </p>
           <!--https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast  -fas  hi  on_b_5690575.html -->
           </div> <!--end socImp div -->
 
-          <div class="socHead">
+          <div class="socHead4">
           <h3> Child Labor </h3>
           </div>
-          <div class="socImp">
+          <div class="socImp4">
           <p> Small handiwork such as sequins and beading may be <a href="https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fa  st-fashion  _b_5690575.html"> indication of child labor </a>. For   manufacturers, investing in machines equipped to do such handiwork is more expensive whereas child labor is much cheaper. </p>
           <!-- https://www.huffingtonpost.com/shannon-whitehead/5-truths-the-fast-fashion  _b_5690575.html -->
           </div> <!--end socImp div -->
@@ -99,12 +103,24 @@
 <!-- 3.3 Environmental Implications  -->
 <div id="environ" class="slideB">
   <h2> The Environmental Implications </h2>
+
+    <div class="environHead1">
     <h3> Landfills: Where clothes go to die </h3>
+    </div>
+
+      <div class="environImp1">
       <p> It's purported that the <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa ster  -for-women-and-the-environment/#250ff18d1fa4"> U.S. generates around 16.22 million tons </a>  of diposed textiles in 2014.  <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disa ster  -for-women-and-the-environment/#250ff18d1fa4"> Only 2.62 million tons of textiles were recycled </a>. Because most clothing is made of synthetic, petroleum-based fibers, it takes decades for them to decompose. Moreover, the chemical dye from these clothings can seep into the soil and pollute the groundwater. It's also predicted that fashion industry's C02 emmissions will increase by 60 percent. </p>
       <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disast  er  -for-women-and-the-environment/#250ff18d1fa4 -->
       <!--https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-disast  er  -for-women-and-the-environment/#426b60601fa4 -->
-      <h3> Water shortages </h3>
+        </div>
+
+        <div class="environHead2">
+        <h3> Water shortages </h3>
+        </div>
+
+        <div class="environImp2">
         <p> In order to manufacture clothing, especially those made of cotton, require a large amount of water. This is detrimental for countries like India and China, which are experiencing <a href="https://www.forbes.com/sites/quora/2017/07/26/fast-fashion-is-a-di  saster  -for-women-and-the-environment/#250ff18d1fa4"> major water shortages </a>.</p>
+      </div>
 </div>
 
 <!-- 4.0 Why it happens  -->
@@ -159,7 +175,7 @@
 
 
 <script src="scripts/jquery-3.2.1.min.js"> </script>
-<script src="scripts/world-map.js"> </script>
+<!-- script src="scripts/world-map.js"> </script -->
 <script src="scripts/main.js"> </script>
 
 </body>
