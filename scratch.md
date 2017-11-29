@@ -96,3 +96,84 @@
   <option value="China" id="CHN"> China </option>
   <option value="Philippines" id="PHL"> Philippines </option>
 </select>
+-----
+
+Scratch for css
+/*2.0 World Map Page*/
+#slide2 {
+  background-color: #F0F8FA;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+/*3.0 Introducing Fast Fashion*/
+#slide4 {
+  background-color: #F0F8FA;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+/*3.1 Transition to Environmental and Social Implications*/
+#slide5 {
+  background-image:url("../images/threads.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+/*3.2 Social Implications*/
+#slide6 {
+  background-color: #F0F8FA; //Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+/*3.3 Environmental Implications*/
+#slide7 {
+  background-color: #FCE6ED; //Pink
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+/*4.0 Why it happens*/
+#slide8 {
+  background-color: #F0F8FA; //Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+/*4.1 Solutions*/
+#slide9 {
+  background-color: #FCE6ED; //Pink
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+/*4.1 Act Now Div*/
+#slide10 {
+  background-color: #FCE6ED; //Pink
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+/*5.0 Why should I care? */
+#slide11 {
+  background-color: #F0F8FA; //Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}

@@ -7,7 +7,15 @@ $(document).ready(function() {
   // run that function right away
   hideAll();
 
+  function hideAll() {
+   $('.socImp').hide();
+   }
 
+  // run that function right away
+  hideAll();
+  $('.socHead').click(function() {
+    $('.socImp').slideToggle();
+  });
 
   /* $( "#menu select" ).change(function() {
     switch ($(this).val()) {
