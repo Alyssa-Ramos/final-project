@@ -13,5 +13,11 @@ https://www.w3schools.com/tags/tag_select.asp
 https://api.jquery.com/change/
 
 
-I'm going to continue researching jfiddles for syntax and play with the jfiddle examples again. However, I will move forward with the other javascript functions I wanted to add while playing around with the function I wanted to include for the worldmap. 
+I'm going to continue researching jfiddles for syntax and play with the jfiddle examples again. However, I will move forward with the other javascript functions I wanted to add while playing around with the function I wanted to include for the worldmap.
+
+For true or false?
+https://jsfiddle.net/alyssa_ramos/sg8xthsw/
+Scrolling through
+https://stackoverflow.com/questions/21427126/jquery-replace-part-of-string-using-a-variable
+
  >
