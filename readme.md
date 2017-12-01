@@ -21,11 +21,13 @@ Scrolling through
 https://stackoverflow.com/questions/21427126/jquery-replace-part-of-string-using-a-variable
 
 Week 2
+
+
 While last week was compiling my content together, this I spent a couple of hours sorting through my Javascript functions and organizing my content. I'm pleased that my I was able to organize my divs so that they can appear as slides with large backgrounds with either solid colors or images, which I've organized by styling.
 
 I was also able to make two of my "slides" perform slide toggle functions, specific to the sections on fast fashion's social and environmental implications. This way the user can click on each of the subheadings to read more about it. I will style the headings so that its clear to the user to click on them.
 
 Aside from that my biggest challenge has been to create the functions for my map. I was able to use a switch function connect to my drop down menu, so that the user can have maps pop up according to what country they chose. I had to use a different JQuery function instead that didn't use attributes but values. I was able to get the maps to show, but the biggest issue is getting the maps to replace each other  on the page. Instead they're on the page, but they're hidden, so the view port of the screen is much bigger than it needs to be because its hiding the maps. Also, you can't make the maps hide, once you click on more than one option at a time. I'm gonna try doing a show and hide instead.
 
- 
+
  >
