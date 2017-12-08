@@ -4,38 +4,33 @@ body {
   padding-bottom: 2em;
 }
 
-#worldMap {
-  height: 300px;
-  width: 50%;
-  padding: 2em;
+h1 {
+  font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
+  background-color: #fff;
+  text-align: center;
+  position: center center;
+
+}
+
+h2 {
+  font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
+  background-color: #fff;
   margin: auto;
-}
-
-#worldMap1 {
-  height: 300px;
-  width: 50%;
-  padding: 2em;
-  margin: auto;
-}
-
-/*Homepage*/
-#welcomePage {
-  background-image:url("../images/clothing-rack.jpg");
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  top:0;
-  bottom: 0;
-  height: 100vh;
-  margin: 0;
 
 }
+
+p {
+  font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
+  font-size: 1em;
+}
+
 .slideB {
   background-color: #F0F8FA;//Blue
   top:0;
   bottom: 0;
   height: 100vh;
   margin: 0;
+  padding: 15em;
 }
 
 .slideP {
@@ -44,23 +39,13 @@ body {
   bottom: 0;
   height: 100vh;
   margin: 0;
+  padding: 15em;
 }
 
-/*2.1 Introductory transition*/
-#fashionStat{
-  background-image:url("../images/shopping.jpg");
-  background-size: cover;
-  background-position: center center;
-  position: relative;
-  top:0;
-  bottom: 0;
-  height: 100vh;
-  margin: 0;
-}
 
-/*3.1 Transition to Environmental and Social Implications */
-#environTrans{
-  background-image:url("../images/factory_window.jpg");
+/*Homepage*/
+#welcomePage {
+  background-image:url("../images/clothing-rack.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -76,7 +61,81 @@ body {
   bottom: 0;
   height: 100vh;
   margin: 0;
+  float: center;
+  padding: 5em;
 }
+
+#worldMap {
+  height: 300px;
+  width: 50%;
+  padding: 7em;
+  margin: auto;
+  float: center;
+}
+
+/*2.1 Introductory transition*/
+#fashionStat{
+  background-image:url("../images/shopping.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 6em;
+  padding-left: 1em;
+}
+
+/*3.1 Transition to Environmental and Social Implications */
+#environTrans{
+  background-image:url("../images/factory_window.jpg");
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+}
+
+#social {
+  background-color: #FCE6ED;//Pink
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 5em;
+}
+
+#environ {
+  background-color: #F0F8FA;//Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 5em;
+}
+
+#why {
+  background-color: #FCE6ED;//Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 5em;
+}
+
+#solutions {
+  background-color: #F0F8FA;//Blue
+  top:0;
+  bottom: 0;
+  height: 100vh;
+  margin: 0;
+  padding: 5em;
+  padding-top: 3em; 
+}
+
 footer {
   background-color: #F0EEF0; //steely grey
 }

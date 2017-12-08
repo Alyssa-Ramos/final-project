@@ -72,7 +72,7 @@ function manageMapDiv() {
          // run the function to remove and remake the div
         manageMapDiv();
 
-        mymap = L.map('worldMap').setView([23.562489, 66.474645],6.00);
+        mymap = L.map('worldMap').setView([23.562489, 90.344352],6.00);
 
       L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cja3f9cd11m9g2smgswlty8bs/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
             attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
@@ -103,6 +103,55 @@ function manageMapDiv() {
           marker3.bindPopup("<b>Pakistan</b> <br>[insert fact]").openPopup();
 
           break;
+          case "THA":
+            //Pakistan
+            // run the function to remove and remake the div
+           manageMapDiv();
+
+            mymap = L.map('worldMap').setView([13.039180, 101.490117],5.00);
+
+            L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cjalju9fvby0t2rs6t9kcc4mo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
+                attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                maxZoom: 18
+            }).addTo(mymap);
+
+            var marker3 = L.marker([13.039180,101.490117]).addTo(mymap);
+            marker3.bindPopup("<b>Thailand</b> <br>[insert fact]").openPopup();
+
+            break;
+
+            case "CHN":
+              //Pakistan
+              // run the function to remove and remake the div
+             manageMapDiv();
+
+              mymap = L.map('worldMap').setView([34.621201, 104.136333],3.00);
+
+              L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cjalju9fvby0t2rs6t9kcc4mo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
+                  attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                  maxZoom: 18
+              }).addTo(mymap);
+
+              var marker3 = L.marker([34.621200,104.136334]).addTo(mymap);
+              marker3.bindPopup("<b>China</b> <br>[insert fact]").openPopup();
+
+              break;
+              case "PHL":
+                //Pakistan
+                // run the function to remove and remake the div
+               manageMapDiv();
+
+                mymap = L.map('worldMap').setView([12.867438, 121.765722],4.00);
+
+                L.tileLayer('https://api.mapbox.com/styles/v1/alyssa-ramos/cjalju9fvby0t2rs6t9kcc4mo/tiles/256/{z}/{x}/{y}?access_token=pk.eyJ1IjoiYWx5c3NhLXJhbW9zIiwiYSI6ImNqYTNleGg4djJuejgyd2xndTV1ZzhmNTUifQ.CkEJwd5T0BA3HPHovs_NTQ', {
+                    attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+                    maxZoom: 18
+                }).addTo(mymap);
+
+                var marker3 = L.marker([11.434999,123.371701]).addTo(mymap);
+                marker3.bindPopup("<b>Philippines</b> <br>[insert fact]").openPopup();
+
+                break;
         } // end switch
   }); // end menu change
 }); // end document ready
