@@ -73,7 +73,7 @@ function manageMapDiv() {
 
         //Bangladesh
         var marker1 = L.marker([23.562489,90.344352]).addTo(mymap);
-        marker1.bindPopup("<b>Bangladesh</b> <br> [insert fact]").openPopup();
+        marker1.bindPopup("<b>Bangladesh</b> <br> In 2003, women workers in seven garment factories in Dhaka worked an average of  80 hours overtime per month.").openPopup();
 
 
         break;
@@ -92,7 +92,7 @@ function manageMapDiv() {
           }).addTo(mymap);
 
           var marker3 = L.marker([30.338895,68.941716]).addTo(mymap);
-          marker3.bindPopup("<b>Pakistan</b> <br>[insert fact]").openPopup();
+          marker3.bindPopup("<b>Pakistan</b> <br> Pakistan ranks as one of the the countriesith the lowest minimum monthly wages").openPopup();
 
           break;
           case "THA":
@@ -108,7 +108,7 @@ function manageMapDiv() {
             }).addTo(mymap);
 
             var marker3 = L.marker([13.039180,101.490117]).addTo(mymap);
-            marker3.bindPopup("<b>Thailand</b> <br>[insert fact]").openPopup();
+            marker3.bindPopup("<b>Thailand</b> <br> A firm in Thailand, GFB,  employed 1,500 workers </a>, nearly all of whom were women.").openPopup();
 
             break;
 
@@ -125,7 +125,7 @@ function manageMapDiv() {
               }).addTo(mymap);
 
               var marker3 = L.marker([34.621200,104.136334]).addTo(mymap);
-              marker3.bindPopup("<b>China</b> <br>[insert fact]").openPopup();
+              marker3.bindPopup("<b>China</b> <br>More than 70 percent </a> of the labour force is female and young (usually under 25 years of age).").openPopup();
 
               break;
               case "PHL":
@@ -141,7 +141,7 @@ function manageMapDiv() {
                 }).addTo(mymap);
 
                 var marker3 = L.marker([11.434999,123.371701]).addTo(mymap);
-                marker3.bindPopup("<b>Philippines</b> <br>[insert fact]").openPopup();
+                marker3.bindPopup("<b>Philippines</b> <br>The Philippines doesn't have unionized factories or minimum wage for garment workers.").openPopup();
 
                 break;
         } // end switch

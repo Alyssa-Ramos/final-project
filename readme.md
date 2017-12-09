@@ -29,5 +29,17 @@ I was also able to make two of my "slides" perform slide toggle functions, speci
 
 Aside from that my biggest challenge has been to create the functions for my map. I was able to use a switch function connect to my drop down menu, so that the user can have maps pop up according to what country they chose. I had to use a different JQuery function instead that didn't use attributes but values. I was able to get the maps to show, but the biggest issue is getting the maps to replace each other  on the page. Instead they're on the page, but they're hidden, so the view port of the screen is much bigger than it needs to be because its hiding the maps. Also, you can't make the maps hide, once you click on more than one option at a time. I'm gonna try doing a show and hide instead.
 
+Week 3
+
+This week I was able to get the map's switch function to work correctly. Professor McAdams suggested I use a remove and "().html" function. After the map was fixed, I included the other markers and adjusted their coordinates.
+
+Following this, I fixed my slide toggle functions. I couldn't get certain p tags to hide when the page loaded, but I deleted some of the function in order for some of it to work.
+
+This week, I focused on the CSS and making it responsive. I used bootstrap to make it responsive. It's a little bit wonky because I had to increase the vh heights, but it looks decent both on desktop and on mobile.
+
+My biggest challenge has always been working with JQuery and Javascript. I tried including buttons so that the user could click through the pages, but all of the types of coding I tried weren't working.
+
+
+
 
  >
