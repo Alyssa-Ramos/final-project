@@ -9,13 +9,12 @@ h1 {
   background-color: #fff;
   text-align: center;
   position: center center;
+  background-color: #F0EEF0;
 
 }
 
 h2 {
   font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
-  background-color: #fff;
-  margin: auto;
 
 }
 
@@ -24,8 +23,15 @@ p {
   font-size: 1em;
 }
 
+li {
+  font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
+  font-size: 1em;
+  list-style-type: circle;
+
+}
+
 .slideB {
-  background-color: #F0F8FA;//Blue
+  background-color: #242029; //Dark mauve
   top:0;
   bottom: 0;
   height: 100vh;
@@ -33,8 +39,21 @@ p {
   padding: 15em;
 }
 
+ .slideB > p {
+  color: #F0EEF0; //steely grey
+}
+
+.slideB > h2 {
+  color: #F0EEF0; //steely grey
+}
+
+.slideB > h3 {
+  color: #F0EEF0; //steely grey
+}
+
+
 .slideP {
-  background-color: #FCE6ED;//Pink
+  background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
   height: 100vh;
@@ -53,14 +72,14 @@ p {
   bottom: 0;
   height: 100vh;
   margin: 0;
+  background-color: #F0EEF0;
 }
 
 #dropdown {
-  background-color: #FCE6ED;//Pink
+  background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
   height: 100vh;
-  margin: 0;
   float: center;
   padding: 5em;
 }
@@ -75,7 +94,7 @@ p {
 
 /*2.1 Introductory transition*/
 #fashionStat{
-  background-image:url("../images/shopping.jpg");
+  background-image:url("../images/flaunter.jpg");
   background-size: cover;
   background-position: center center;
   position: relative;
@@ -99,8 +118,13 @@ p {
   margin: 0;
 }
 
+#environTrans > h2 {
+  color: #000;
+  background-color: #fff;
+}
+
 #social {
-  background-color: #FCE6ED;//Pink
+  background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
   height: 100vh;
@@ -109,7 +133,7 @@ p {
 }
 
 #environ {
-  background-color: #F0F8FA;//Blue
+  background-color: #242029; //Dark mauve
   top:0;
   bottom: 0;
   height: 100vh;
@@ -118,7 +142,7 @@ p {
 }
 
 #why {
-  background-color: #FCE6ED;//Blue
+  background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
   height: 100vh;
@@ -127,13 +151,13 @@ p {
 }
 
 #solutions {
-  background-color: #F0F8FA;//Blue
+  background-color: #242029; //Dark mauve
   top:0;
   bottom: 0;
   height: 100vh;
   margin: 0;
   padding: 5em;
-  padding-top: 3em; 
+  padding-top: 3em;
 }
 
 footer {

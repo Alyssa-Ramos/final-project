@@ -15,19 +15,15 @@
 <link href="https://fonts.googleapis.com/css?family=Didact+Gothic|Prata" rel="stylesheet">
 <link rel="stylesheet" href="styles/main.css">
 
-<!-- Bootstrap Stylesheet -->
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 
 </head>
 
 <body>
-<div class="container">
-<div class="row">
-  <div class="col-lg">
+
   <!-- 1.0 Welcome Page -->
   <div id="welcomePage">
   <h1> Behind the Label </h1>
+  <button onclick="myFunction()"> button </button>
   </div>
 
 
@@ -51,7 +47,6 @@
       <div id='worldMap'></div>
     </div>
 
-
   </div>
 <!-- 2.1 Introductory transition -->
   <div id="intro" class="slideB">
@@ -69,6 +64,7 @@
   <div id="introFF" class="slideP">
     <h2> What is fast fashion? </h2>
       <p> This is a contemporary term in the fashion industry for the rapid process of manufacturing and purchasing cheaply made clothing based off chic runway trends.</p>
+
     </div>
 
 <!-- 3.1 Transition to Environmental and Social Implications  -->
@@ -154,19 +150,24 @@
 <!-- 4.1 Solutions Bullets? -->
   <div id="solutions" class="slideB">
   <h2> Reduce </h2>
-    <h3> Be a conscious consumer </h3>
-      <p> When buying clothing, buy what you need. Avoid impulse purchases - in this case, less is certainly more.</p>
-      <p> Buy clothing from sustainable brands. You can find a list of sustainable brands here. </p> <!-- Do I wanna put a link here? -->
-      <p> Sell your clothing at places like <a href="https://poshmark.com/"> Poshmark </a>, <a href="https://www.tradesy.com/?utm_source=gtb&utm_medium=cpc&utm_campaign=Branded%20-%20Tradesy%20-%20FTB&utm_content=tradesy%20-%20exact&utm_term=tradesy&gclid=Cj0KCQiA6enQBRDUARIsAGs1YQirP-gQlGdRoMB6yfFMtJPqzaZvIAXgSs6xLeUv_x2Ylr61jRBauygaAgh0EALw_wcB"> Tradesy </a> or <a href="https://www.buffaloexchange.com/"> Buffalo Exchange </a>. </p>
-      <p> Donate clothing to <a href"http://www.goodwill.org/"> Goodwill </a>, <a href"http://www.salvationarmyusa.org/"> Salavation Army </a> or other local charities.</p> <!-- Don't forget to put links? -->
+      <ul>
+      <li> When buying clothing, buy what you need. Avoid impulse purchases - in this case, less is certainly more.</li>
+      <li> Buy clothing from sustainable brands. You can find a list of sustainable brands here. </li> <!-- Do I wanna put a link here? -->
+      <li> Sell your clothing at places like <a href="https://poshmark.com/"> Poshmark </a>, <a href="https://www.tradesy.com/?utm_source=gtb&utm_medium=cpc&utm_campaign=Branded%20-%20Tradesy%20-%20FTB&utm_content=tradesy%20-%20exact&utm_term=tradesy&gclid=Cj0KCQiA6enQBRDUARIsAGs1YQirP-gQlGdRoMB6yfFMtJPqzaZvIAXgSs6xLeUv_x2Ylr61jRBauygaAgh0EALw_wcB"> Tradesy </a> or <a href="https://www.buffaloexchange.com/"> Buffalo Exchange </a>. </li>
+      <li> Donate clothing to <a href"http://www.goodwill.org/"> Goodwill </a>, <a href"http://www.salvationarmyusa.org/"> Salavation Army </a> or other local charities.</li> <!-- Don't forget to put links? -->
+    </ul>
 
   <h2> Reuse </h2>
-    <p> Try exploring thriftstores or resale retailers. </p>
-    <p> Try doing closet exchanges with friends </p>
-    <p> If you're more of a crafty person, try looking up DIY projects to give a new life to your clothing. </p>
+    <ul>
+    <li> Try exploring thriftstores or resale retailers. </li>
+    <li> Try doing closet exchanges with friends </li>
+    <li> If you're more of a crafty person, try looking up DIY projects to give a new life to your clothing. </li>
+  </ul>
 
   <h2> Recycle </h2>
-    <p> If all else fails. There are organizations such as <a href"http://rewearable.org/"> Rewearable </a> and <a href="http://wearablecollections.com/"> Wearable Collections </a> that take old clothing and tale the clothing and its fibers to be recycled and remade.  </p>
+    <ul>
+    <li> If all else fails. There are organizations such as <a href"http://rewearable.org/"> Rewearable </a> and <a href="http://wearablecollections.com/"> Wearable Collections </a> that take old clothing and tale the clothing and its fibers to be recycled and remade.  </li>
+  </ul>
   </div>
 
   <div id="actNow" class="slideP">
@@ -179,12 +180,12 @@
  <h3> Why should I care? </h3>
     <p> Buying the clothing you want shouldn't be a guilt trip; it's about encouraging the industry to have better practices.It's important to be conscious about what you consume, because every thread has an impact </p>
 </div>
-</div>
-</div>
-</div>
+
 
 <footer> Web apps project by: Alyssa Ramos </footer>
 <!-- Make sure you put this AFTER Leaflet's CSS -->
+
+
 
 
 <!--Leaflet -->
@@ -195,10 +196,7 @@
 <script src="scripts/jquery-3.2.1.min.js"> </script>
 <script src="scripts/main.js"> </script>
 
-<!--Bootstrap -->
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 </body>
 

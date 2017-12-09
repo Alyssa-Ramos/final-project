@@ -1,13 +1,5 @@
 $(document).ready(function() {
 
-/*
-//Hide Map
-   function hideAll() {
-    $('#worldMap').hide();
-    }
-    // run that function right away
-    hideAll(); */
-
 //Social Implication Functions//
 
    $(".socImp1").hide();
