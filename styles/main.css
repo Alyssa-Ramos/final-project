@@ -1,7 +1,7 @@
 
 body {
   margin: 0px;
-  padding-bottom: 2em;
+  padding-bottom: 0;
 }
 
 h1 {
@@ -15,7 +15,6 @@ h1 {
 
 h2 {
   font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
-
 }
 
 p {
@@ -27,6 +26,7 @@ li {
   font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
   font-size: 1em;
   list-style-type: circle;
+  color: #F0EEF0; //steely grey
 
 }
 
@@ -36,11 +36,13 @@ li {
   bottom: 0;
   height: 100vh;
   margin: 0;
-  padding: 15em;
+  padding: 5em;
+
 }
 
  .slideB > p {
   color: #F0EEF0; //steely grey
+  font-size: 3em;
 }
 
 .slideB > h2 {
@@ -51,16 +53,14 @@ li {
   color: #F0EEF0; //steely grey
 }
 
-
 .slideP {
   background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
   height: 100vh;
   margin: 0;
-  padding: 15em;
+  padding: 5em;
 }
-
 
 /*Homepage*/
 #welcomePage {
@@ -86,8 +86,8 @@ li {
 
 #worldMap {
   height: 300px;
-  width: 50%;
-  padding: 7em;
+  width: 70%;
+  padding: 5em;
   margin: auto;
   float: center;
 }
@@ -102,8 +102,8 @@ li {
   bottom: 0;
   height: 100vh;
   margin: 0;
-  padding: 6em;
-  padding-left: 1em;
+  padding: 5em;
+  color: #F0EEF0; //steely grey
 }
 
 /*3.1 Transition to Environmental and Social Implications */
@@ -127,34 +127,49 @@ li {
   background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
-  height: 100vh;
+  height: 160vh;
   margin: 0;
   padding: 5em;
 }
 
 #environ {
   background-color: #242029; //Dark mauve
+  color: #F0EEF0; //steely grey
   top:0;
   bottom: 0;
-  height: 100vh;
+  height: 130vh;
   margin: 0;
   padding: 5em;
+}
+
+.environHead1 {
+  color: #F0EEF0; //steely grey
+}
+.environHead2 {
+  color: #F0EEF0; //steely grey
+}
+.environImp1 {
+  color: #F0EEF0; //steely grey
+}
+.environImp2 {
+  color: #F0EEF0; //steely grey
 }
 
 #why {
   background-color: #A3A9BD;//Dusty purple
   top:0;
   bottom: 0;
-  height: 100vh;
+  height: 230vh;
   margin: 0;
   padding: 5em;
+
 }
 
 #solutions {
   background-color: #242029; //Dark mauve
   top:0;
   bottom: 0;
-  height: 100vh;
+  height: 140vh;
   margin: 0;
   padding: 5em;
   padding-top: 3em;
@@ -162,4 +177,5 @@ li {
 
 footer {
   background-color: #F0EEF0; //steely grey
+  padding: 3em;
 }
