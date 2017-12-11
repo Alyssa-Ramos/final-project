@@ -2,20 +2,42 @@
 body {
   margin: 0px;
   padding-bottom: 0;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.btn-secondary  {
+  text-align: center;
+  position: center;
+  float: right;
+  margin: auto;
+  display: block;
 }
 
 h1 {
   font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
   background-color: #fff;
   text-align: center;
-  position: center center;
+  position: center;
   background-color: #F0EEF0;
+  padding: 1.5em;
 
 }
 
 h2 {
   font-family:'Prata', 'Bodoni', 'Times New Roman', serif;
 }
+
+h3 {font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
+    font-size: 1.5em;
+
+}
+
 
 p {
   font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
@@ -26,12 +48,12 @@ li {
   font-family: 'Didact Gothic', 'Avenir', 'Verdana', sans-serif;
   font-size: 1em;
   list-style-type: circle;
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 
 }
 
 .slideB {
-  background-color: #242029; //Dark mauve
+  background-color: #242029; /*Dark mauve*/
   top:0;
   bottom: 0;
   height: 100vh;
@@ -41,20 +63,20 @@ li {
 }
 
  .slideB > p {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
   font-size: 3em;
 }
 
 .slideB > h2 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 
 .slideB > h3 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 
 .slideP {
-  background-color: #A3A9BD;//Dusty purple
+  background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
   height: 100vh;
@@ -66,7 +88,7 @@ li {
 #welcomePage {
   background-image:url("../images/clothing-rack.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   position: relative;
   top:0;
   bottom: 0;
@@ -76,41 +98,42 @@ li {
 }
 
 #dropdown {
-  background-color: #A3A9BD;//Dusty purple
+  background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
   height: 100vh;
-  float: center;
   padding: 5em;
 }
 
 #worldMap {
-  height: 300px;
-  width: 70%;
-  padding: 5em;
+  height: 400px;
+  max-width: 100%;
+  padding: 0;
   margin: auto;
-  float: center;
 }
 
 /*2.1 Introductory transition*/
 #fashionStat{
   background-image:url("../images/flaunter.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   position: relative;
   top:0;
   bottom: 0;
   height: 100vh;
   margin: 0;
   padding: 5em;
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 
 /*3.1 Transition to Environmental and Social Implications */
+#environTrans > p {
+  font-size: 20px;
+}
 #environTrans{
   background-image:url("../images/factory_window.jpg");
   background-size: cover;
-  background-position: center center;
+  background-position: center;
   position: relative;
   top:0;
   bottom: 0;
@@ -124,7 +147,7 @@ li {
 }
 
 #social {
-  background-color: #A3A9BD;//Dusty purple
+  background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
   height: 160vh;
@@ -133,8 +156,8 @@ li {
 }
 
 #environ {
-  background-color: #242029; //Dark mauve
-  color: #F0EEF0; //steely grey
+  background-color: #242029; /*Dark mauve*/
+  color: #F0EEF0; /*steely grey*/
   top:0;
   bottom: 0;
   height: 130vh;
@@ -143,20 +166,20 @@ li {
 }
 
 .environHead1 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 .environHead2 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 .environImp1 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 .environImp2 {
-  color: #F0EEF0; //steely grey
+  color: #F0EEF0; /*steely grey*/
 }
 
 #why {
-  background-color: #A3A9BD;//Dusty purple
+  background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
   height: 230vh;
@@ -166,7 +189,7 @@ li {
 }
 
 #solutions {
-  background-color: #242029; //Dark mauve
+  background-color: #242029; /*Dark mauve*/
   top:0;
   bottom: 0;
   height: 140vh;
@@ -176,6 +199,14 @@ li {
 }
 
 footer {
-  background-color: #F0EEF0; //steely grey
+  background-color: #F0EEF0; /*steely grey*/
   padding: 3em;
+}
+
+@media (min-width: @screen-sm-min) {
+  #worldMap {
+    width: 100%;
+  }
+
+
 }

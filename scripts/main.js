@@ -1,5 +1,75 @@
 $(document).ready(function() {
 
+//Scrolling Function//
+  $.fn.scrollView = function () {
+   return this.each(function () {
+     $('html, body').animate({
+       scrollTop: $(this).offset().top
+     }, 1000);
+   });
+ }
+
+ $('#1').click(function (event) {
+   event.preventDefault();
+   $('#worldMapHolder').scrollView();
+ });
+
+ $('#2').click(function (event) {
+   event.preventDefault();
+   $('#intro').scrollView();
+ });
+
+ $('#3').click(function (event) {
+   event.preventDefault();
+   $('#fashionStat').scrollView();
+ });
+
+ $('#4').click(function (event) {
+   event.preventDefault();
+   $('#introFF').scrollView();
+ });
+
+ $('#5').click(function (event) {
+   event.preventDefault();
+   $('#environTrans').scrollView();
+ });
+
+ $('#5').click(function (event) {
+   event.preventDefault();
+   $('#environTrans').scrollView();
+ });
+
+ $('#6').click(function (event) {
+   event.preventDefault();
+   $('#social').scrollView();
+ });
+
+ $('#7').click(function (event) {
+   event.preventDefault();
+   $('#environ').scrollView();
+ });
+
+ $('#8').click(function (event) {
+   event.preventDefault();
+   $('#why').scrollView();
+ });
+
+ $('#9').click(function (event) {
+   event.preventDefault();
+   $('#solutions').scrollView();
+ });
+
+  $('#10').click(function (event) {
+    event.preventDefault();
+    $('#actNow').scrollView();
+  });
+
+    $('#11').click(function (event) {
+      event.preventDefault();
+      $('#end').scrollView();
+    });
+
+
 //Social Implication Functions//
 
    $(".socImp1").hide();
@@ -46,8 +116,6 @@ function manageMapDiv() {
   $("#worldMap").remove();
   $("#worldMapHolder").html("<div id='worldMap'></div>");
 }
-
-
 
 /* MENU SELECT FUNCTION */
   // initialize the variable for all maps below
