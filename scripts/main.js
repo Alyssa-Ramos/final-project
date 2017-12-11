@@ -160,7 +160,7 @@ function manageMapDiv() {
           }).addTo(mymap);
 
           var marker3 = L.marker([30.338895,68.941716]).addTo(mymap);
-          marker3.bindPopup("<b>Pakistan</b> <br> Pakistan ranks as one of the the countriesith the lowest minimum monthly wages").openPopup();
+          marker3.bindPopup("<b>Pakistan</b> <br> Pakistan ranks as one of the the countries with the lowest minimum monthly wages.").openPopup();
 
           break;
           case "THA":
@@ -193,7 +193,7 @@ function manageMapDiv() {
               }).addTo(mymap);
 
               var marker3 = L.marker([34.621200,104.136334]).addTo(mymap);
-              marker3.bindPopup("<b>China</b> <br>More than 70 percent </a> of the labour force is female and young (usually under 25 years of age).").openPopup();
+              marker3.bindPopup("<b>China</b> <br>More than 70 percent </a> of the labor force is female and young (usually under 25 years of age).").openPopup();
 
               break;
               case "PHL":

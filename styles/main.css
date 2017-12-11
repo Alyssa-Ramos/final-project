@@ -11,12 +11,16 @@ body {
   padding: 0;
 }
 
-.btn-secondary  {
+.btn-outline-secondary  {
   text-align: center;
   position: center;
-  float: right;
+  float: center;
   margin: auto;
   display: block;
+}
+
+a:hover {
+  color: #E3BE06;
 }
 
 h1 {
@@ -25,7 +29,7 @@ h1 {
   text-align: center;
   position: center;
   background-color: #F0EEF0;
-  padding: 1.5em;
+  padding: 1em;
 
 }
 
@@ -101,7 +105,7 @@ li {
   background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
-  height: 100vh;
+  height: 130vh;
   padding: 5em;
 }
 
@@ -150,7 +154,7 @@ li {
   background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
-  height: 160vh;
+  height: 190vh;
   margin: 0;
   padding: 5em;
 }
@@ -160,7 +164,7 @@ li {
   color: #F0EEF0; /*steely grey*/
   top:0;
   bottom: 0;
-  height: 130vh;
+  height: 150vh;
   margin: 0;
   padding: 5em;
 }
@@ -182,7 +186,7 @@ li {
   background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
-  height: 230vh;
+  height: 280vh;
   margin: 0;
   padding: 5em;
 
@@ -192,7 +196,7 @@ li {
   background-color: #242029; /*Dark mauve*/
   top:0;
   bottom: 0;
-  height: 140vh;
+  height: 170vh;
   margin: 0;
   padding: 5em;
   padding-top: 3em;
@@ -200,13 +204,5 @@ li {
 
 footer {
   background-color: #F0EEF0; /*steely grey*/
-  padding: 3em;
-}
-
-@media (min-width: @screen-sm-min) {
-  #worldMap {
-    width: 100%;
-  }
-
-
+  padding: 2em;
 }
