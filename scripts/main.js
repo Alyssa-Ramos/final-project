@@ -11,7 +11,7 @@ $(document).ready(function() {
 
  $('#1').click(function (event) {
    event.preventDefault();
-   $('#worldMapHolder').scrollView();
+   $('#dropDown').scrollView();
  });
 
  $('#2').click(function (event) {
@@ -160,7 +160,7 @@ function manageMapDiv() {
           }).addTo(mymap);
 
           var marker3 = L.marker([30.338895,68.941716]).addTo(mymap);
-          marker3.bindPopup("<b>Pakistan</b> <br> Pakistan ranks as one of the the countries with the lowest minimum monthly wages.").openPopup();
+          marker3.bindPopup("<b>Pakistan</b> <br> Pakistan ranks as one of the countries with the lowest minimum monthly wages.").openPopup();
 
           break;
           case "THA":
@@ -176,7 +176,7 @@ function manageMapDiv() {
             }).addTo(mymap);
 
             var marker3 = L.marker([13.039180,101.490117]).addTo(mymap);
-            marker3.bindPopup("<b>Thailand</b> <br> A firm in Thailand, GFB,  employed 1,500 workers </a>, nearly all of whom were women.").openPopup();
+            marker3.bindPopup("<b>Thailand</b> <br> A firm in Thailand, GFB,  employed 1,500 workers</a>, nearly all of whom were women.").openPopup();
 
             break;
 
@@ -209,7 +209,7 @@ function manageMapDiv() {
                 }).addTo(mymap);
 
                 var marker3 = L.marker([11.434999,123.371701]).addTo(mymap);
-                marker3.bindPopup("<b>Philippines</b> <br>The Philippines doesn't have unionized factories or minimum wage for garment workers.").openPopup();
+                marker3.bindPopup("<b>Philippines</b> <br>The Philippines doesn't have unionized factories or minimum wage for its garment workers.").openPopup();
 
                 break;
         } // end switch

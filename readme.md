@@ -35,11 +35,16 @@ This week I was able to get the map's switch function to work correctly. Profess
 
 Following this, I fixed my slide toggle functions. I couldn't get certain p tags to hide when the page loaded, but I deleted some of the function in order for some of it to work.
 
-This week, I focused on the CSS and making it responsive. However, my code is a little bit convoluted in order to get all the colors to match. I used bootstrap to make it responsive. It's a little bit wonky because I had to increase the vh heights, but it looks decent both on desktop and on mobile. It was a little finicky, but I was very pleased that I was able to get it to work. 
+This week, I focused on the CSS and making it responsive. However, my code is a little bit convoluted in order to get all the colors to match. I used bootstrap to make it responsive. It's a little bit wonky because I had to increase the vh heights, but it looks decent both on desktop and on mobile. It was a little finicky, but I was very pleased that I was able to get it to work.
 
 My biggest challenge has always been working with JQuery and Javascript. I tried including buttons so that the user could click through the pages, but all of the types of coding I tried weren't working.
 
 I was trying to reference this line of code: https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_element_scrollintoview, but I couldn't get it to work. According to my Javascript Console, it said the "myFunction" wasn't defined in my text, so I tried to alter my Javascript, but it didn't work.
+
+Conclusion
+
+There is no doubt that I have learned a large amount of information and applied it with the conclusion of this project. I do think I struggled in this class, but for the better. With this final project, I’ve been able to make a website from scratch, and I feel that I can leave this class having a mastery over HTML, excellent proficiency with CSS and substantial knowledge with JavaScript to make a working website. However, I do think there’s quite a lot of room for improvement – I don’t think I have the natural skill to think algorithmically with programming, but I do cherish the opportunity to troubleshoot. This final project has taught me that much.  If anything, I feel empowered with my knowledge of programming so that I can apply that to my future career in media. Overall, it has been both challenging, but rewarding.
+
 
 
 

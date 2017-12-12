@@ -14,7 +14,6 @@ body {
 .btn-outline-secondary  {
   text-align: center;
   position: center;
-  float: center;
   margin: auto;
   display: block;
 }
@@ -101,7 +100,7 @@ li {
   background-color: #F0EEF0;
 }
 
-#dropdown {
+#dropDown {
   background-color: #A3A9BD;/*Dusty purple*/
   top:0;
   bottom: 0;
